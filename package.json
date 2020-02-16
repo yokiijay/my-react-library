@@ -1,0 +1,32 @@
+{
+  "name": "create-my-react-library",
+  "version": "1.0.0",
+  "main": "lib/bundle.js",
+  "author": "Yokiijay <yokiijay@gmail.com> (https://yokiijay.github.io)",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run rollup -c",
+    "start": "yarn run rollup -c -w"
+  },
+  "description": "My first react library",
+  "keywords": [
+    "react",
+    "react library",
+    "react switch",
+    "switch"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "framer-motion": "^1.8.4",
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1"
+  }
+}
